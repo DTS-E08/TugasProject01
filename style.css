@@ -1,58 +1,64 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .heading {
-    padding-top: 60px;
-    padding-bottom: 30px;
-    color: #565457;
-    width: 75%;
-  }
+  padding-bottom: 30px;
+  color: #565457;
+}
 
 .heading h2 {
-    font-weight: normal;
-    border-bottom: 1px solid #ff0000;
-  }
+  font-weight: normal;
+  border-bottom: 1px solid #ff0000;
+}
 
-  .menu {
-    float: left;
-    width: 25%;
-  }
-  
-  .menu-icon {
-    position: relative;
-  }
-  
-  .menu-icon p {
-    top: 90px;
-    width: 100%;
-    color: rgb(0, 0, 0);
-  }
+.menus {
+  display: flex;
+  justify-content: space-around;
+}
 
-  .heading2 {
-    padding-top: 350px;
-    padding-bottom: 30px;
-    color: #575454;
-    width: 75%;
-  }
+
+section {
+  margin: 3rem auto;
+  max-width: 80vw;
+}
+  
+.menu-icon {
+  position: relative;
+}
+  
+.menu-icon p {
+  top: 90px;
+  width: 100%;
+  color: rgb(0, 0, 0);
+}
+
+.heading2 {
+  padding-top: 10rem;
+  padding-bottom: 30px;
+  color: #575454;
+  width: 75%;
+}
 
 .heading2 h2 {
-    font-weight: normal;
-    border-bottom: 1px solid #ff0000;
-  }
+  font-weight: normal;
+  border-bottom: 1px solid #ff0000;
+}
 
-  .chef {
-    float: left;
-    width: 33%;
-  }
-  
-  .chef-icon {
-    position: relative;
-  }
-  
-  .chef-icon p {
-    top: 90px;
-    width: 100%;
-    color: rgb(0, 0, 0);
-  }
+.chef {
+}
+
+.chef-icon {
+  position: relative;
+}
+
+.chef-icon p {
+  top: 90px;
+  width: 100%;
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  bottom: 0;
+}
