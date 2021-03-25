@@ -62,3 +62,25 @@ section {
 footer {
   bottom: 0;
 }
+
+.about{
+  padding-bottom: 400px;
+  color: #575454;
+}
+
+.title{
+  text-align: center;
+}
+
+.content-item img{
+  float: right;
+  width: 40%;
+}
+
+.content-item p{
+  padding-top: 20px;
+  float: left;
+  width: 40%;
+  text-align: left;
+  color: color: rgb(0, 0, 0);;
+}
