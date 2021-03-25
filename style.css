@@ -3,6 +3,83 @@
   margin: 0;
 }
 
+header {
+  height: 45px;
+  width: 100%;
+  /*background-color: rgba(255, 38, 0, 0.9);*/
+  background-color: #ff0000;
+  padding-bottom: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  
+}
+
+.top-wrapper{
+  padding-top: 15%;
+  padding-bottom: 15%;
+  color: white;
+  background:url(../img/header.jpg);
+  background-size:  cover;
+}
+
+.top-wrapper h1 {
+  font-size: 55px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.top-wrapper p {
+  font-size: 18px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  padding: 0px 20px 40px;
+  }
+
+.header-left {
+  float: left;
+}
+
+.logo {
+  width: 100px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-list {
+  /*background-color: rgba(255, 38, 0, 0.9);*/
+  background-color: #ff0000;
+  padding-left: 450px;
+  transition: all 0.5s;
+  z-index: 10;
+}
+
+.header-list li:hover {
+  background-color: rgba(250, 250, 250, 0.5);
+}
+
+.header-list a{
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.header-list li {
+  float: left;
+  display: block;
+  padding: 16px 50px;
+}
+
 .heading {
   padding-bottom: 30px;
   color: #565457;
