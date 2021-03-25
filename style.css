@@ -11,6 +11,7 @@
 .heading h2 {
   font-weight: normal;
   border-bottom: 1px solid #ff0000;
+  text-align: center;
 }
 
 .menus {
@@ -31,22 +32,22 @@ section {
 .menu-icon p {
   top: 90px;
   width: 100%;
-  color: rgb(0, 0, 0);
+  color: #565457;
+  text-align: center;
+  font-weight: normal;
 }
 
 .heading2 {
-  padding-top: 10rem;
+  padding-top: 4rem;
   padding-bottom: 30px;
   color: #575454;
-  width: 75%;
+  width: 100%;
 }
 
 .heading2 h2 {
   font-weight: normal;
   border-bottom: 1px solid #ff0000;
-}
-
-.chef {
+  text-align: center;
 }
 
 .chef-icon {
@@ -56,7 +57,9 @@ section {
 .chef-icon p {
   top: 90px;
   width: 100%;
-  color: rgb(0, 0, 0);
+  color: #565457;
+  text-align: center;
+  font-weight: normal;
 }
 
 footer {
@@ -65,22 +68,31 @@ footer {
 
 .about{
   padding-bottom: 400px;
+  padding-left: 10px;
+  padding-right: 10px;
   color: #575454;
+}
+
+.about h3 {
+  padding-top: 10px;
 }
 
 .title{
   text-align: center;
+  color: #565457;
+  font-weight: normal;
+  border-bottom: 1px solid #ff0000;
 }
 
 .content-item img{
   float: right;
-  width: 40%;
+  width: 49%;
 }
 
 .content-item p{
   padding-top: 20px;
   float: left;
-  width: 40%;
+  width: 49%;
   text-align: justify;
   color: color: rgb(0, 0, 0);
 }
