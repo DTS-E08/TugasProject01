@@ -36,9 +36,10 @@ header {
 }
 
 .container {
-  width: 100%;
-  padding: 0px 20px 40px;
-  }
+  width: 96.5%;
+  max-width: 100%;
+  padding: 0px 20px 40px 40px;
+}
 
 .header-left {
   float: left;
@@ -56,12 +57,17 @@ a {
   text-decoration: none;
 }
 
+.option {
+  text-align: center;
+}
+
 .header-list {
   /*background-color: rgba(255, 38, 0, 0.9);*/
   background-color: #ff0000;
-  padding-left: 450px;
+  margin: auto;
   transition: all 0.5s;
   z-index: 10;
+  width: 40rem;
 }
 
 .header-list li:hover {
@@ -81,6 +87,7 @@ a {
 }
 
 .heading {
+  margin-top: 15rem;
   padding-bottom: 30px;
   color: #565457;
 }
@@ -169,7 +176,7 @@ section {
   float: left;
   width: 49%;
   text-align: justify;
-  color: color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 footer {
@@ -180,17 +187,20 @@ footer {
 }
 
 .info {
-  padding: 20px;
+  margin: 5rem auto;
+  padding-top: 5rem;
+  width: 50rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .info h1{
-  float: left;
   font-size: 20px;
   color: #ffffff;
 }
 
 .info p {
-  float: left;
   padding-top: 3%;
   color: #ffffff;
 }
