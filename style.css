@@ -40,6 +40,23 @@ header {
   padding: 0px 20px 40px 40px;
 }
 
+.animation {
+  margin-top: 5px;
+  width: 70px;
+  height: 30px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-direction: alternate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  100% {background-color:red; left:94.5%; top:0px;}
+}
+
 .header-left {
   float: left;
 }
@@ -86,7 +103,7 @@ a {
 }
 
 .heading {
-  margin-top: 15rem;
+  margin-top: 2rem;
   padding-bottom: 30px;
   color: #565457;
 }
