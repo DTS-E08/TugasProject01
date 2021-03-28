@@ -239,3 +239,19 @@ footer {
   padding-top: 3%;
   color: #ffffff;
 }
+
+@media only screen and (max-width: 1280px) {
+  .menus img {
+    max-width: 15vw;
+  }
+  header .container {
+    display: flex;
+  }
+  .header-left {
+    float: none;
+  }
+  .header-list {
+    margin: auto;
+    padding: 0;
+  }
+}
