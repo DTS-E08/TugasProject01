@@ -135,17 +135,13 @@ a {
 
 .menus {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 
 section {
   margin: 3rem auto;
   max-width: 80vw;
-}
-  
-.menu-icon {
-  position: relative;
 }
   
 .menu-icon p {
@@ -170,8 +166,9 @@ section {
   text-align: center;
 }
 
-.chef-icon {
-  position: relative;
+.menu-icon img,
+.chef-icon img {
+  max-width: 17vw;
 }
 
 .chef-icon p {
@@ -240,9 +237,18 @@ footer {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 1280px) {
-  .menus img {
+@media only screen and (max-width: 850px) {
+  .menu img {
     max-width: 15vw;
+  }
+  .chef-icon img {
+    max-width: 13vw;
+  }
+  .chef-icon {
+    max-width: 13vw;
+  }
+  .chef-icon p {
+    font-size: 12px;
   }
   header .container {
     display: flex;
